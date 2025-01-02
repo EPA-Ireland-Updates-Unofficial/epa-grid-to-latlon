@@ -1,6 +1,8 @@
 # EPA Irish Grid Coordinates to Latitude/Longitiude
 This simple tool takes an XLSX file containing Water Abstraction data from the EPA and adds Latitude and Longitude columns, by converting from the traditional Northing/Easting Irish Grid coordinates.
 
+Note that this code relies on there only being one tab in the spreadsheet. If the source has more than one tab, make a copy of it and delete the other tabs in the copy.
+
 Using it is relatively straightforward:
 
 * Install [Python 3](****)
